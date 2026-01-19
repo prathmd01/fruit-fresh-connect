@@ -24,7 +24,7 @@ export const Navbar = () => {
               <Leaf className="w-5 h-5 text-primary-foreground" />
             </div>
             <span className="text-xl font-bold text-foreground">
-              Fresh<span className="text-primary">Harvest</span>
+              Agri<span className="text-primary">-360</span>
             </span>
           </a>
 

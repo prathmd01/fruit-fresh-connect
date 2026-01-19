@@ -43,7 +43,7 @@ export const HowItWorksSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            How <span className="text-gradient-primary">FreshHarvest</span> Works
+            How <span className="text-gradient-primary">Agri-360</span> Works
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             A simple 4-step process to maximize your earnings from farm produce.
@@ -130,8 +130,8 @@ export const HowItWorksSection = () => {
                 <p className="text-sm text-muted-foreground mb-2">
                   Sell Raw Today
                 </p>
-                <p className="text-3xl font-bold text-foreground">₹45</p>
-                <p className="text-xs text-muted-foreground">/kg</p>
+                <p className="text-3xl font-bold text-foreground">₹18</p>
+                <p className="text-xs text-muted-foreground">/kg (₹16-20 range)</p>
               </div>
 
               {/* Ripened Sale Card */}
@@ -139,8 +139,8 @@ export const HowItWorksSection = () => {
                 <p className="text-sm text-primary-foreground/80 mb-2">
                   After Ripening
                 </p>
-                <p className="text-3xl font-bold text-primary-foreground">₹58</p>
-                <p className="text-xs text-primary-foreground/80">/kg (+30%)</p>
+                <p className="text-3xl font-bold text-primary-foreground">₹24</p>
+                <p className="text-xs text-primary-foreground/80">/kg (+30% hike)</p>
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Sprout, Thermometer, Store, ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 const roles = [
   {
@@ -17,6 +18,7 @@ const roles = [
       "Secure payment guarantee",
     ],
     cta: "Start as Farmer",
+    link: "/farmer",
     gradient: "from-primary/10 to-accent",
     iconBg: "bg-primary/10",
     iconColor: "text-primary",
@@ -35,6 +37,7 @@ const roles = [
       "Retailer connections",
     ],
     cta: "Join as Agent",
+    link: "/agent",
     gradient: "from-secondary/10 to-warning/10",
     iconBg: "bg-secondary/10",
     iconColor: "text-secondary",
@@ -53,6 +56,7 @@ const roles = [
       "Flexible ordering",
     ],
     cta: "Register as Retailer",
+    link: "/retailer",
     gradient: "from-accent to-primary/10",
     iconBg: "bg-accent",
     iconColor: "text-accent-foreground",
@@ -74,7 +78,7 @@ export const RolesSection = () => {
             in the Chain
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Whether you grow, ripen, or sell – FreshHarvest has the tools you
+            Whether you grow, ripen, or sell – Agri-360 has the tools you
             need to succeed.
           </p>
         </motion.div>
@@ -123,10 +127,12 @@ export const RolesSection = () => {
                 </ul>
 
                 {/* CTA */}
-                <Button className="w-full group/btn">
-                  {role.cta}
-                  <ArrowRight className="w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
-                </Button>
+                <Link to={role.link}>
+                  <Button className="w-full group/btn">
+                    {role.cta}
+                    <ArrowRight className="w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
+                  </Button>
+                </Link>
               </div>
             </motion.div>
           ))}

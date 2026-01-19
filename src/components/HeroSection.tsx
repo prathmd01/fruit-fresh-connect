@@ -107,8 +107,8 @@ export const HeroSection = () => {
                       <TrendingUp className="w-5 h-5 text-success" />
                     </div>
                     <div>
-                      <p className="text-xs text-muted-foreground">Today's Rate</p>
-                      <p className="text-lg font-bold text-foreground">₹45/kg</p>
+                      <p className="text-xs text-muted-foreground">Raw Banana Rate</p>
+                      <p className="text-lg font-bold text-foreground">₹18/kg</p>
                     </div>
                   </div>
                 </motion.div>
@@ -124,7 +124,7 @@ export const HeroSection = () => {
                     </div>
                     <div>
                       <p className="text-xs text-muted-foreground">After Ripening</p>
-                      <p className="text-lg font-bold text-secondary">₹58/kg</p>
+                      <p className="text-lg font-bold text-secondary">₹24/kg</p>
                     </div>
                   </div>
                 </motion.div>
