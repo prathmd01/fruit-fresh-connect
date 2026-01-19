@@ -32,9 +32,9 @@ export const Footer = () => {
               <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
                 <Leaf className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold">
-                Fresh<span className="text-primary">Harvest</span>
-              </span>
+            <span className="text-xl font-bold">
+              Agri<span className="text-primary">-360</span>
+            </span>
             </a>
             <p className="text-background/70 mb-6 max-w-sm">
               Connecting farmers, ripening agents, and retailers for better
@@ -43,7 +43,7 @@ export const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm text-background/70">
                 <Mail className="w-4 h-4" />
-                hello@freshharvest.in
+                hello@agri360.in
               </div>
               <div className="flex items-center gap-3 text-sm text-background/70">
                 <Phone className="w-4 h-4" />
@@ -79,7 +79,7 @@ export const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-background/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-background/50">
-            © 2024 FreshHarvest. All rights reserved.
+            © 2024 Agri-360. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <span className="text-sm text-background/50">Made with 🌾 in India</span>
